@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|c:\\users\\sandh\\documents\\personal projects\\garmin prep projects\\tasktracker-dotnetangular\\backend\\tasktracker.api\\controller\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|solutionrelative:controller\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|c:\\users\\sandh\\documents\\personal projects\\garmin prep projects\\tasktracker-dotnetangular\\backend\\tasktracker.api\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|solutionrelative:service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|c:\\users\\sandh\\documents\\personal projects\\garmin prep projects\\tasktracker-dotnetangular\\backend\\tasktracker.api\\service\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|solutionrelative:service\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|c:\\users\\sandh\\documents\\personal projects\\garmin prep projects\\tasktracker-dotnetangular\\backend\\tasktracker.api\\model\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|solutionrelative:model\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|c:\\users\\sandh\\documents\\personal projects\\garmin prep projects\\tasktracker-dotnetangular\\backend\\tasktracker.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|c:\\users\\sandh\\documents\\personal projects\\garmin prep projects\\tasktracker-dotnetangular\\backend\\tasktracker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Service\\ITaskService.cs",
+              "RelativeDocumentMoniker": "Service\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Service\\ITaskService.cs",
+              "RelativeToolTip": "Service\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T00:11:20.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Controller\\TaskController.cs",
+              "RelativeDocumentMoniker": "Controller\\TaskController.cs",
+              "ToolTip": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Controller\\TaskController.cs",
+              "RelativeToolTip": "Controller\\TaskController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T00:02:35.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Service\\TaskService.cs",
+              "RelativeDocumentMoniker": "Service\\TaskService.cs",
+              "ToolTip": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Service\\TaskService.cs",
+              "RelativeToolTip": "Service\\TaskService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T00:02:25.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Model\\TaskDTO.cs",
+              "RelativeDocumentMoniker": "Model\\TaskDTO.cs",
+              "ToolTip": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Model\\TaskDTO.cs",
+              "RelativeToolTip": "Model\\TaskDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T00:02:10.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-05T23:59:05.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T23:56:22.595Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
