@@ -13,6 +13,6 @@ export class TaskService {
   /* Several Observables to let pages make actuall call */
   getAllTasks() : Observable<Task[]> {
     // Need to specify task type in get request
-    return this.http.get<Task[]>(this.baseURL + "Tasks");
+    return this.http.get<Task[]>(this.baseURL + "/Tasks");
   }
 }

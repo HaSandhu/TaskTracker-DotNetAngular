@@ -1,4 +1,37 @@
-<h1>{{data.title}}</h1>
-<p>{{data.description}}</p>
-<p>{{data.status}}</p>
-<p>task-card works!</p>
+<div class="task-card">
+    <div class="card-header">
+        <div class="title-description">
+            <h3 class="task-title">{{data.title}}</h3>
+            <p class="task-description">{{data.description}}</p>
+        </div>
+
+        <div class="status-date">
+            <div class="status-icon-container">
+                <img [src]="getStatusImg()" *ngIf="useIcons" [alt]="data.status + ' status icon'" class="status-icon"
+                     [title]="tooltipText"> </div> 
+
+            <div class="due-date" *ngIf="data.dueDate">
+                Due: {{data.dueDate | date:'mediumDate'}} </div>
+        </div>
+    </div>
+
+    <div class="info-bar">
+        <div class="priority-indicator" *ngIf="data.priority">
+            <span><img [src]="getPriorityImg()" [alt]="data.priority + ' priority icon'"/> </span>
+        </div>
+
+        <span class="info-item" *ngIf="data.userName">
+            Assigned: {{data.userName}}
+        </span>
+
+        <span class="info-item" *ngIf="data.updatedDate">
+            Last Updated: {{data.updatedDate | date:'short'}} </span>
+
+        <div class="tags-container">
+            <span class="tag-bubble" *ngFor="let tag of data.tags | slice:0:3"> {{tag}}
+            </span>
+            <span class="tag-bubble more-tags" *ngIf="data.tags && data.tags.length > 3">...</span>
+        </div>
+    </div>
+
+    </div>

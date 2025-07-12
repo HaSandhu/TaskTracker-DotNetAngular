@@ -3,8 +3,8 @@ export interface Task {
     id: number,
     title: string,
     description: string,
-    status: 'ToDo' | 'InProgress' | 'Blocked' | 'Done' | 'Deleted'
-    priority?: 'High' | 'Medium' | 'Low',
+    status: '0' | '1' | '2' | '3' | '4',
+    priority?: 'high' | 'medium' | 'low',
     dueDate?: string,
     createdDate?: string,
     updatedDate?: string,

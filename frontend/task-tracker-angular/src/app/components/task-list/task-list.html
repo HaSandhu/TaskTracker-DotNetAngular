@@ -1,5 +1,6 @@
 <h1> Here is your list of Tasks </h1>
-<!-- <ul *ngFor="let Task task of tasks">
-
-</ul> -->
-<app-task-card [data] = "singleTask"></app-task-card>
+<ul *ngFor="let task of tasks" style="list-style-type: none;">
+    <li [id]="task.id" >
+        <app-task-card [data]="task"></app-task-card>
+    </li>
+</ul>
