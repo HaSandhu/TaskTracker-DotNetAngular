@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Task } from '../models/task.model';
+import { url } from 'inspector';
 
 @Injectable({
   providedIn: 'root'
@@ -14,5 +15,13 @@ export class TaskService {
   getAllTasks() : Observable<Task[]> {
     // Need to specify task type in get request
     return this.http.get<Task[]>(this.baseURL + "/Tasks");
+  }
+
+  getSingleTask(id: number) : Observable<Task> {
+    return this.http.get<Task>(this.baseURL + "/Tasks/" + {id});
+  }
+
+  createTask(data: Task) : Observable<any> {
+    return this.http.post(this.baseURL + "Tasks", data);
   }
 }

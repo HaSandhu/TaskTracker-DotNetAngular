@@ -124,7 +124,7 @@
 }
 
 /* --- Responsive Adjustments (Optional but Recommended) --- */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .card-header {
         flex-direction: column; /* Stack title/desc and status/date vertically */
         align-items: flex-start;

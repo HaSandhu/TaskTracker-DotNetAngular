@@ -16,8 +16,8 @@
     </div>
 
     <div class="info-bar">
-        <div class="priority-indicator" *ngIf="data.priority">
-            <span><img [src]="getPriorityImg()" [alt]="data.priority + ' priority icon'"/> </span>
+        <div class="priority-indicator">
+            <span><img width="10px" [src]="getPriorityImg()" [alt]="data.taskPriority + ' priority icon'"/> </span>
         </div>
 
         <span class="info-item" *ngIf="data.userName">

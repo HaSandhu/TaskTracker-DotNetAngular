@@ -4,7 +4,7 @@ export interface Task {
     title: string,
     description: string,
     status: 0 | 1 | 2 | 3 | 4,
-    priority?: 'high' | 'medium' | 'low',
+    taskPriority?: 'high' | 'medium' | 'low',
     dueDate?: string,
     createdDate?: string,
     updatedDate?: string,
