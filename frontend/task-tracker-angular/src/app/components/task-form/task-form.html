@@ -1,58 +1,54 @@
-<p>task-form works!</p>
-<form>
-    <h1> Create a New Task! </h1>
+<form #taskForm="ngForm" (ngSubmit)="createTask()"> <h1> Create a New Task! </h1>
     <!-- Title -->
-     <div>
-        <h4>Title:</h4>
-        <input [(ngModel)]="taskTitle">
-     </div>
+    <div class="form-group"> <label for="taskTitle">Title:</label> <input type="text" id="taskTitle" name="taskTitle"
+               [(ngModel)]="taskTitle" #titleField="ngModel" required minlength="3">
+        <div *ngIf="titleField.invalid && (titleField.dirty || titleField.touched)" class="error-message">
+            <div *ngIf="titleField.errors?.['required']">Title is required.</div>
+            <div *ngIf="titleField.errors?.['minlength']">Title must be at least 3 characters.</div>
+        </div>
+    </div>
     <!-- Description -->
-     <div>
-        <p>Description:</p>
-        <input [(ngModel)]="taskDescription">
-     </div>
-    <!-- Priority toggle -->
-     <!-- make them radio buttons and have the color be the button if possible or have the picture be the clickable item here -->
-     <div>
-        <p>Priority:</p>
-        <div>
-            <input [(ngModel)]="taskPriority" value="low" type="radio">
-        </div>
-        <div>
-            <input [(ngModel)]="taskPriority" value="medium" type="radio">
-        </div>
-        <div>
-            <input [(ngModel)]="taskPriority" value="high" type="radio">
-        </div>
-     </div>
+    <div class="form-group"> <label for="taskDescription">Description:</label> <textarea id="taskDescription" name="taskDescription"
+                  [(ngModel)]="taskDescription"></textarea>
+    </div>
 
-     <!-- Due Date input -->
-     <!-- make them radio buttons and have the color be the button if possible or have the picture be the clickable item here -->
-     <div>
-        <label>Due Date:</label>
-        <input [(ngModel)]="taskDueDate" type="date">
-     </div>
-
-     <div>
-        <button (submit)="createTask()" type="submit">Create this Task</button>
-     </div>
-
-     <!-- tags input -->
-     <div>
-        <p>Tags: </p>
-        <!-- Show list og tag if there are any -->
-        <div *ngIf="tags.length > 0">
-            <ul *ngFor="let tag of tags; let i = index">
-                <li key = i>
-                    <!-- tag css -->
-                    <div>
-                        <p>[{{tag}}]</p>
-                    </div>
-                </li>
-            </ul>
+    <div class="form-group"> <label>Priority:</label> <div class="priority-options"> <label class="priority-button low" [class.selected]="taskPriority === 'low'">
+                <input type="radio" name="taskPriority" value="low" [(ngModel)]="taskPriority"> Low
+            </label>
+            <label class="priority-button medium" [class.selected]="taskPriority === 'medium'">
+                <input type="radio" name="taskPriority" value="medium" [(ngModel)]="taskPriority"> Medium
+            </label>
+            <label class="priority-button high" [class.selected]="taskPriority === 'high'">
+                <input type="radio" name="taskPriority" value="high" [(ngModel)]="taskPriority"> High
+            </label>
         </div>
-        <input type="text" placeholder="Tag" [(ngModel)]="tag">
-        <button type="submit" (submit)="submitTag"></button>
-     </div>
-    
+    </div>
+
+    <!-- Due Date input -->
+    <div class="form-group"> 
+        <label for="taskDueDate">Due Date:</label>
+        <input [(ngModel)]="taskDueDate" type="date" id="taskDueDate" name="taskDueDate" >
+    </div>
+
+    <!-- tags input -->
+    <div class="form-group">
+        <label for="tagInput">Tags:</label>
+        <div class="tags-input-group"> <input type="text" id="tagInput" name="tagInput" placeholder="Add tag (e.g., frontend)" [(ngModel)]="currentTag" (keyup.enter)="addTag()">
+            <button type="button" (click)="addTag()">Add Tag</button>
+        </div>
+        <div *ngIf="tags.length" class="tag-list">
+            <span *ngFor="let tag of tags; let i = index" class="tag-bubble">
+                {{tag}}
+                <span class="remove-tag" (click)="removeTag(i)">x</span>
+            </span>
+        </div>
+    </div>
+
+    <div class="form-actions"> <button type="submit" [disabled]="taskForm.invalid">Create this Task</button>
+        <button type="button" (click)="resetForm()">Clear Form</button>
+    </div>
 </form>
+
+<div *ngIf="wasCreated" class="alert success-alert">
+    {{ successMessage }} 🎉
+</div>

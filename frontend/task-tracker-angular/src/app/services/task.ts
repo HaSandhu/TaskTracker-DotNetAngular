@@ -22,6 +22,6 @@ export class TaskService {
   }
 
   createTask(data: Task) : Observable<any> {
-    return this.http.post(this.baseURL + "Tasks", data);
+    return this.http.post(this.baseURL + "/Tasks/", data);
   }
 }
