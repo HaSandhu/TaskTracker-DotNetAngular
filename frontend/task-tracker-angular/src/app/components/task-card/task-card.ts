@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './task-card.css'
 })
 export class TaskCard{
-    @Input({required: true}) data : Task = {id: 1, title: "Some Title", description: "Some Task Description", status: '1'};
+    @Input({required: true}) data : Task = {id: 1, title: "Some Title", description: "Some Task Description", status: 1};
     useIcons : boolean = true;
     tooltipText: string = '';
 
@@ -26,24 +26,25 @@ export class TaskCard{
         if (!this.useIcons) return null;
         // Corrected basePath to be relative to the web root (src/assets becomes just 'assets/')
         const basePath : string = 'status_icons/';
-        console.log(this.data.status);
+        console.log("Hit Status: " + this.data.status);
         switch(this.data.status) {
-          case '0':
+          case 0:
             console.log(basePath + 'todo-icon.jpg');
             return basePath + 'todo-icon.jpg';
-          case '1':
+          case 1:
             console.log(basePath + 'pending-icon.png');
             return basePath + 'pending-icon.png';
-          case '2':
+          case 2:
             console.log(basePath + 'blocked-icon.png');
             return basePath + 'blocked-icon.png';
-          case '3':
+          case 3:
             console.log(basePath + 'done-icon.png');
             return basePath + 'done-icon.png';
-          case '4':
+          case 4:
             console.log(basePath + 'delete-icon.png');
             return basePath + 'delete-icon.png';
           default:
+            console.log("Hit default");
             return null;
         }
       }
@@ -70,7 +71,7 @@ export class TaskCard{
      // Function to set tooltip text based on status (for interactivity)
     updateTooltipText(): void {
       this.tooltipText = `Status: ${this.data.status}`;
-      if (this.data.status === '2' && this.data.blockedDesc) {
+      if (this.data.status === 2 && this.data.blockedDesc) {
         this.tooltipText += ` - Reason: ${this.data.blockedDesc}`;
       }
     }

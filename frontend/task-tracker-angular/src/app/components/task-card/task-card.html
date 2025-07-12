@@ -7,7 +7,7 @@
 
         <div class="status-date">
             <div class="status-icon-container">
-                <img [src]="getStatusImg()" *ngIf="useIcons" [alt]="data.status + ' status icon'" class="status-icon"
+                <img [src]="getStatusImg()" [alt]="data.status + ' status icon'" class="status-icon"
                      [title]="tooltipText"> </div> 
 
             <div class="due-date" *ngIf="data.dueDate">

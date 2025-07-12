@@ -3,7 +3,7 @@ export interface Task {
     id: number,
     title: string,
     description: string,
-    status: '0' | '1' | '2' | '3' | '4',
+    status: 0 | 1 | 2 | 3 | 4,
     priority?: 'high' | 'medium' | 'low',
     dueDate?: string,
     createdDate?: string,
