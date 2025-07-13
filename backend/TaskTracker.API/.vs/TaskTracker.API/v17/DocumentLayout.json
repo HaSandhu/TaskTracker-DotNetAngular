@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|c:\\users\\sandh\\documents\\personal projects\\garmin prep projects\\tasktracker-dotnetangular\\backend\\tasktracker.api\\model\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|solutionrelative:model\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|c:\\users\\sandh\\documents\\personal projects\\garmin prep projects\\tasktracker-dotnetangular\\backend\\tasktracker.api\\data\\task.repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|solutionrelative:data\\task.repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|c:\\users\\sandh\\documents\\personal projects\\garmin prep projects\\tasktracker-dotnetangular\\backend\\tasktracker.api\\controller\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|solutionrelative:controller\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|c:\\users\\sandh\\documents\\personal projects\\garmin prep projects\\tasktracker-dotnetangular\\backend\\tasktracker.api\\data\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|solutionrelative:data\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|c:\\users\\sandh\\documents\\personal projects\\garmin prep projects\\tasktracker-dotnetangular\\backend\\tasktracker.api\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|c:\\users\\sandh\\documents\\personal projects\\garmin prep projects\\tasktracker-dotnetangular\\backend\\tasktracker.api\\service\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|solutionrelative:service\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|c:\\users\\sandh\\documents\\personal projects\\garmin prep projects\\tasktracker-dotnetangular\\backend\\tasktracker.api\\model\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|solutionrelative:model\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AC0E67E-C8F4-D977-E58A-4E51D5ADFC74}|TaskTracker.API.csproj|c:\\users\\sandh\\documents\\personal projects\\garmin prep projects\\tasktracker-dotnetangular\\backend\\tasktracker.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -34,11 +42,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Model\\TaskDTO.cs",
+              "RelativeDocumentMoniker": "Model\\TaskDTO.cs",
+              "ToolTip": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Model\\TaskDTO.cs*",
+              "RelativeToolTip": "Model\\TaskDTO.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T00:02:10.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task.Repository.cs",
+              "DocumentMoniker": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Data\\Task.Repository.cs",
+              "RelativeDocumentMoniker": "Data\\Task.Repository.cs",
+              "ToolTip": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Data\\Task.Repository.cs",
+              "RelativeToolTip": "Data\\Task.Repository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T17:41:43.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Controller\\TaskController.cs",
+              "RelativeDocumentMoniker": "Controller\\TaskController.cs",
+              "ToolTip": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Controller\\TaskController.cs",
+              "RelativeToolTip": "Controller\\TaskController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T00:02:35.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Data\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "Data\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Data\\ITaskRepository.cs",
+              "RelativeToolTip": "Data\\ITaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T17:41:36.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ITaskService.cs",
               "DocumentMoniker": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Service\\ITaskService.cs",
               "RelativeDocumentMoniker": "Service\\ITaskService.cs",
@@ -50,44 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaskController.cs",
-              "DocumentMoniker": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Controller\\TaskController.cs",
-              "RelativeDocumentMoniker": "Controller\\TaskController.cs",
-              "ToolTip": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Controller\\TaskController.cs",
-              "RelativeToolTip": "Controller\\TaskController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T00:02:35.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "TaskService.cs",
               "DocumentMoniker": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Service\\TaskService.cs",
               "RelativeDocumentMoniker": "Service\\TaskService.cs",
               "ToolTip": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Service\\TaskService.cs",
               "RelativeToolTip": "Service\\TaskService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBIAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T00:02:25.619Z"
+              "WhenOpened": "2025-07-06T00:02:25.619Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskDTO.cs",
-              "DocumentMoniker": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Model\\TaskDTO.cs",
-              "RelativeDocumentMoniker": "Model\\TaskDTO.cs",
-              "ToolTip": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Model\\TaskDTO.cs",
-              "RelativeToolTip": "Model\\TaskDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T00:02:10.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -99,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sandh\\Documents\\Personal Projects\\Garmin Prep Projects\\TaskTracker-DotNetAngular\\backend\\TaskTracker.API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
