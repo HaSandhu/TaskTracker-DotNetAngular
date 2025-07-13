@@ -24,4 +24,11 @@ export class TaskService {
   createTask(data: Task) : Observable<any> {
     return this.http.post(this.baseURL + "/Tasks/", data);
   }
+
+  deleteTask(id: number) : Observable<any> {
+    console.dir(id);
+    console.log(typeof(id));
+    console.log("Making this api call: " + this.baseURL + "/Tasks/" + id);
+    return this.http.delete(this.baseURL + "/Tasks/" + id);
+  }
 }

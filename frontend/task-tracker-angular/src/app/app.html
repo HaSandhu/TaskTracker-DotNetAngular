@@ -185,8 +185,8 @@
   <div class="pill">
     <app-task-form></app-task-form>
   </div>
-  <div class="content">
-    <app-task-list></app-task-list>
+  <div taskListInstance class="content">
+    <app-task-list #taskList (taskCreated)="taskList.loadTasks()"></app-task-list>
   </div>
 </main>
 

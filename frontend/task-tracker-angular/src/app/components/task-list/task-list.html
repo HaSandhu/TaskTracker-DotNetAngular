@@ -1,6 +1,22 @@
-<h1> Here is your list of Tasks </h1>
-<ul *ngFor="let task of tasks" style="list-style-type: none;">
-    <li [id]="task.id" >
-        <app-task-card [data]="task"></app-task-card>
-    </li>
-</ul>
+<div class="task-list-container"> <!-- ADDED: Container for scrollability -->
+    <h1>Here is your list of Tasks</h1>
+
+    <!-- ADDED: Button to manually refresh tasks -->
+    <button class="refresh-button" (click)="loadTasks()">Refresh Tasks</button>
+
+    <div *ngIf="err" class="error-message-list">
+        <p>{{ err }}</p>
+    </div>
+
+    <!-- ADDED: Wrapper for scrollable list -->
+    <div class="scrollable-list">
+        <ul style="list-style-type: none; padding: 0;"> <!-- CORRECTED: Removed padding from ul to avoid double padding -->
+            <li *ngFor="let task of tasks" [id]="'task-' + task.id"> <!-- CORRECTED: Use unique id with prefix -->
+                <app-task-card [data]="task" (deleteThisTask)="deleteTask($event)"></app-task-card>
+            </li>
+            <li *ngIf="tasks.length === 0 && !err" class="no-tasks-message">
+                <p>No tasks found. Click "Refresh Tasks" to load.</p>
+            </li>
+        </ul>
+    </div>
+</div>

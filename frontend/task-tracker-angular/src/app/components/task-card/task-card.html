@@ -32,6 +32,22 @@
             </span>
             <span class="tag-bubble more-tags" *ngIf="data.tags && data.tags.length > 3">...</span>
         </div>
+        <div class="deleteButton">
+            <button (click)="delete.set(true)">
+            </button>
+        </div>
+    </div>
+
+    <div *ngIf="delete()">
+     <h1> Are you sure you would like to delete this Task? </h1>
+        <div>
+            <button (click)="sendDeleteTask()">
+                Yes
+            </button>
+            <button (click)="delete.set(false)">
+                No
+            </button>
+        </div>
     </div>
 
     </div>

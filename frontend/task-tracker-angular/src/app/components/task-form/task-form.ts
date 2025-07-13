@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { Task } from '../../models/task.model';
 import { TaskService } from '../../services/task';
 import { CommonModule } from '@angular/common';
@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './task-form.css'
 })
 export class TaskForm {
+  @Output() taskCreated = new EventEmitter<void>();
   createdTask? : Task;
 
   //Task Variables

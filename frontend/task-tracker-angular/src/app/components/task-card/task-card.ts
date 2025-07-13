@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output, signal } from '@angular/core';
 import { Task } from '../../models/task.model';
 import { CommonModule } from '@angular/common';
 
@@ -9,10 +9,11 @@ import { CommonModule } from '@angular/common';
   styleUrl: './task-card.css'
 })
 export class TaskCard{
-    @Input({required: true}) data : Task = {id: 1, title: "Some Title", description: "Some Task Description", status: 1};
+    @Input({required: true}) data! : Task;
+    @Output() deleteThisTask = new EventEmitter<Task>();
     useIcons : boolean = true;
     tooltipText: string = '';
-
+    delete = signal(false);
     ngOnInit() {
       this.data.status
     }
@@ -64,6 +65,10 @@ export class TaskCard{
       if (this.data.status === 2 && this.data.blockedDesc) {
         this.tooltipText += ` - Reason: ${this.data.blockedDesc}`;
       }
+    }
+
+    sendDeleteTask(): void {
+      this.deleteThisTask.emit(this.data);
     }
 
 }

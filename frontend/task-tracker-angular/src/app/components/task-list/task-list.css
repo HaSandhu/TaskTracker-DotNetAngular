@@ -1,0 +1,99 @@
+/* src/app/components/task-list/task-list.css */
+
+.task-list-container {
+    max-width: 700px; /* Adjust as needed */
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.refresh-button {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px 20px;
+    background-color: #28a745; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.refresh-button:hover {
+    background-color: #218838;
+}
+
+.error-message-list {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Scrollable List Container */
+.scrollable-list {
+    max-height: 600px; /* Set a max height for scrollability */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding-right: 15px; /* Space for scrollbar */
+}
+
+/* Style the scrollbar (optional, for custom look) */
+.scrollable-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollable-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.scrollable-list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.scrollable-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* No tasks message */
+.no-tasks-message {
+    text-align: center;
+    color: #6c757d;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+/* Ensure list items don't have default browser padding */
+.scrollable-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.scrollable-list li {
+    margin-bottom: 15px; /* Spacing between task cards */
+}
+
+/* Remove bottom margin from the last task card in the list */
+.scrollable-list li:last-child {
+    margin-bottom: 0;
+}
